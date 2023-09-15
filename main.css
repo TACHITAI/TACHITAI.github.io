@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+p{
+	font-family: 'Yrsa', serif;
+	color:#808080;
+}
+h2{
+	font-family: 'Literata', serif;
+}
+h4{
+	font-family: 'Yrsa', serif;
+}
+.menu{
+	font-size: 21px;
+	font-family: 'Literata', serif;
+	width:100%;
+}
+.menubar{
+	width: 20%;
+}
+.hinhlogo{
+	width: 100%;
+}
+.menutext li{
+	padding: 0 10px;
+}
+.Bannercolum{
+	margin: 0 auto;
+}
+h1{
+	font-family: 'Literata', serif;
+}
+.Bannercolum p{
+	font-size: 24px;
+	padding-top: 10px;
+}
+.content1{
+	padding-top:100px;
+	margin: 0 auto;
+}
+hr{
+	width: 100%;
+	border: 1px solid #187C3D;
+	margin: 50px 0px;
+}
+.cot{
+	width: 30%;
+}
+.cot img{
+	height: 50%;
+	width: 100%;
+
+}
+.cot p{
+	padding-bottom: 15px;
+}
+.contentsanpham p{
+	font-size: 18px;
+}
+
+.nav-pills .nav-link.active{
+	background-color: #187C3D;
+	font-color: white;
+}
+.contentkm p{
+	font-size: 24px;
+}
+.contentkm h4{
+	font-size: 28px; 
+	color:#B9824C;
+}
+.contentvct p{
+	font-size: 24px;
+}
+.contentvct1 h4{
+	padding-top: 20px;
+	color:#B9824C;
+}
+.contentvct1 img{
+	height: 60%;
+}
+.thethanhvien h4{
+	padding-top: 20px;
+	color:#B9824C;
+}
+.bottom{
+	background-color: #187C3D;
+	color: white;
+	text-align: center;
+}
+.contentbot{
+	padding: 50px 300px;
+}
+.contentbot p{
+	font-size: 20px;
+}
+.nd{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+ion-icon{
+	padding: 0px 10px 15px 0px;
+	
+}
+@media screen and (max-width:576px){
+	.NghichDao{
+		flex-direction: column-reverse;
+	}
+}
